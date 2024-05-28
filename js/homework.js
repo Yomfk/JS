@@ -1,7 +1,7 @@
 "use strict"
 const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 
-const perconalMovieDb={
+const personalMovieDb={
     count: numberOfFilms,
     movies:{},
     actors:{},
@@ -14,7 +14,7 @@ const a = prompt ("Какой фильм вы посмотрели?", ""),
       c = prompt ("Какой фильм вы посмотрели?", ""),
       d = prompt ("На сколько вы его оцените?", '');
 
-perconalMovieDb.movies[a] = b;
-perconalMovieDb.movies[c] = d;
+personalMovieDb.movies[a] = b;
+personalMovieDb.movies[c] = d;
 
-console.log(perconalMovieDb);
+console.log(personalMovieDb);
